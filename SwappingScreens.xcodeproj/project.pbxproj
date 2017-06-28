@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		BE2D00701F03E83B00D8AFF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D006F1F03E83B00D8AFF9 /* AppDelegate.swift */; };
-		BE2D00721F03E83B00D8AFF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D00711F03E83B00D8AFF9 /* ViewController.swift */; };
+		BE2D00721F03E83B00D8AFF9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D00711F03E83B00D8AFF9 /* LoginVC.swift */; };
 		BE2D00751F03E83B00D8AFF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2D00731F03E83B00D8AFF9 /* Main.storyboard */; };
 		BE2D00771F03E83B00D8AFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2D00761F03E83B00D8AFF9 /* Assets.xcassets */; };
 		BE2D007A1F03E83B00D8AFF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2D00781F03E83B00D8AFF9 /* LaunchScreen.storyboard */; };
+		BE2D00821F03EB5400D8AFF9 /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D00811F03EB5400D8AFF9 /* MusicListVC.swift */; };
+		BE2D00841F03F0C400D8AFF9 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D00831F03F0C400D8AFF9 /* PlaySongVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BE2D006C1F03E83B00D8AFF9 /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2D006F1F03E83B00D8AFF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE2D00711F03E83B00D8AFF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE2D00711F03E83B00D8AFF9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		BE2D00741F03E83B00D8AFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE2D00761F03E83B00D8AFF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE2D00791F03E83B00D8AFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE2D007B1F03E83B00D8AFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2D00811F03EB5400D8AFF9 /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		BE2D00831F03F0C400D8AFF9 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				BE2D006F1F03E83B00D8AFF9 /* AppDelegate.swift */,
-				BE2D00711F03E83B00D8AFF9 /* ViewController.swift */,
+				BE2D00711F03E83B00D8AFF9 /* LoginVC.swift */,
+				BE2D00811F03EB5400D8AFF9 /* MusicListVC.swift */,
 				BE2D00731F03E83B00D8AFF9 /* Main.storyboard */,
+				BE2D00831F03F0C400D8AFF9 /* PlaySongVC.swift */,
 				BE2D00761F03E83B00D8AFF9 /* Assets.xcassets */,
 				BE2D00781F03E83B00D8AFF9 /* LaunchScreen.storyboard */,
 				BE2D007B1F03E83B00D8AFF9 /* Info.plist */,
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE2D00721F03E83B00D8AFF9 /* ViewController.swift in Sources */,
+				BE2D00821F03EB5400D8AFF9 /* MusicListVC.swift in Sources */,
+				BE2D00841F03F0C400D8AFF9 /* PlaySongVC.swift in Sources */,
+				BE2D00721F03E83B00D8AFF9 /* LoginVC.swift in Sources */,
 				BE2D00701F03E83B00D8AFF9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
